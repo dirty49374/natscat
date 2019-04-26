@@ -1,0 +1,30 @@
+{
+  "name": "natscat",
+  "version": "1.0.1",
+  "description": "nats cat utility",
+  "main": "natscat.js",
+  "bin": {
+    "natscat": "natscat.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "js-yaml": "^3.13.1",
+    "moment": "^2.24.0",
+    "nats": "^1.2.10",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirty49374/natscat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dirty49374/natscat/issues"
+  },
+  "homepage": "https://github.com/dirty49374/natscat#readme"
+}
